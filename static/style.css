@@ -1,0 +1,27 @@
+@page {
+    size: A4;
+    margin: 10mm;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.report-title {
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+th, td {
+    border: 1px solid black;
+    padding-top: 2px;
+    text-align: center;
+}
+th, .total-td {
+    background-color: #eeeeee;
+    font-weight: bold;
+}
+.total-quantity-row {
+    background-color: #dcdcdc;
+    font-weight: bold;
+}

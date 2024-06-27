@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "Alexander",
+    "teacher_id": 1
+  },
+  {
+    "id": 2,
+    "name": "Beatrice",
+    "teacher_id": 1
+  },
+  {
+    "id": 3,
+    "name": "Christopher",
+    "teacher_id": 1
+  },
+  {
+    "id": 4,
+    "name": "Danielle",
+    "teacher_id": 1
+  },
+  {
+    "id": 5,
+    "name": "Ethan",
+    "teacher_id": 1
+  },
+  {
+    "id": 6,
+    "name": "Fiona",
+    "teacher_id": null
+  },
+  {
+    "id": 7,
+    "name": "Gabriel",
+    "teacher_id": 2
+  },
+  {
+    "id": 8,
+    "name": "Harper",
+    "teacher_id": 2
+  },
+  {
+    "id": 9,
+    "name": "Isabella",
+    "teacher_id": 2
+  },
+  {
+    "id": 10,
+    "name": "James",
+    "teacher_id": 2
+  },
+  {
+    "id": 11,
+    "name": "Katherine",
+    "teacher_id": null
+  },
+  {
+    "id": 12,
+    "name": "Liam",
+    "teacher_id": 3
+  },
+  {
+    "id": 13,
+    "name": "Madison",
+    "teacher_id": 3
+  }
+]

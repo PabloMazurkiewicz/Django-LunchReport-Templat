@@ -1,0 +1,275 @@
+[
+  {
+    "id": 1,
+    "quantity": 1,
+    "lunch_item_id": 1,
+    "student_id": 1,
+    "teacher_id": null
+  },
+  {
+    "id": 2,
+    "quantity": 2,
+    "lunch_item_id": 6,
+    "student_id": 1,
+    "teacher_id": null
+  },
+  {
+    "id": 3,
+    "quantity": 1,
+    "lunch_item_id": 7,
+    "student_id": 1,
+    "teacher_id": null
+  },
+  {
+    "id": 4,
+    "quantity": 3,
+    "lunch_item_id": 1,
+    "student_id": 1,
+    "teacher_id": null
+  },
+  {
+    "id": 5,
+    "quantity": 10,
+    "lunch_item_id": 7,
+    "student_id": 2,
+    "teacher_id": null
+  },
+  {
+    "id": 6,
+    "quantity": 1,
+    "lunch_item_id": 2,
+    "student_id": 2,
+    "teacher_id": null
+  },
+  {
+    "id": 7,
+    "quantity": 1,
+    "lunch_item_id": 7,
+    "student_id": 2,
+    "teacher_id": null
+  },
+  {
+    "id": 8,
+    "quantity": 2,
+    "lunch_item_id": 2,
+    "student_id": 3,
+    "teacher_id": null
+  },
+  {
+    "id": 9,
+    "quantity": 1,
+    "lunch_item_id": 3,
+    "student_id": 3,
+    "teacher_id": null
+  },
+  {
+    "id": 10,
+    "quantity": 1,
+    "lunch_item_id": 6,
+    "student_id": 3,
+    "teacher_id": null
+  },
+  {
+    "id": 11,
+    "quantity": 1,
+    "lunch_item_id": 4,
+    "student_id": 4,
+    "teacher_id": null
+  },
+  {
+    "id": 12,
+    "quantity": 1,
+    "lunch_item_id": 7,
+    "student_id": 4,
+    "teacher_id": null
+  },
+  {
+    "id": 13,
+    "quantity": 1,
+    "lunch_item_id": 5,
+    "student_id": 5,
+    "teacher_id": null
+  },
+  {
+    "id": 14,
+    "quantity": 1,
+    "lunch_item_id": 6,
+    "student_id": 5,
+    "teacher_id": null
+  },
+  {
+    "id": 15,
+    "quantity": 1,
+    "lunch_item_id": 1,
+    "student_id": 6,
+    "teacher_id": null
+  },
+  {
+    "id": 16,
+    "quantity": 1,
+    "lunch_item_id": 7,
+    "student_id": 6,
+    "teacher_id": null
+  },
+  {
+    "id": 17,
+    "quantity": 1,
+    "lunch_item_id": 6,
+    "student_id": 6,
+    "teacher_id": null
+  },
+  {
+    "id": 18,
+    "quantity": 1,
+    "lunch_item_id": 1,
+    "student_id": 6,
+    "teacher_id": null
+  },
+  {
+    "id": 19,
+    "quantity": 1,
+    "lunch_item_id": 2,
+    "student_id": 7,
+    "teacher_id": null
+  },
+  {
+    "id": 20,
+    "quantity": 1,
+    "lunch_item_id": 6,
+    "student_id": 7,
+    "teacher_id": null
+  },
+  {
+    "id": 21,
+    "quantity": 2,
+    "lunch_item_id": 3,
+    "student_id": 8,
+    "teacher_id": null
+  },
+  {
+    "id": 22,
+    "quantity": 2,
+    "lunch_item_id": 7,
+    "student_id": 8,
+    "teacher_id": null
+  },
+  {
+    "id": 23,
+    "quantity": 5,
+    "lunch_item_id": 3,
+    "student_id": 8,
+    "teacher_id": null
+  },
+  {
+    "id": 24,
+    "quantity": 1,
+    "lunch_item_id": 4,
+    "student_id": 9,
+    "teacher_id": null
+  },
+  {
+    "id": 25,
+    "quantity": 1,
+    "lunch_item_id": 6,
+    "student_id": 9,
+    "teacher_id": null
+  },
+  {
+    "id": 26,
+    "quantity": 1,
+    "lunch_item_id": 5,
+    "student_id": 10,
+    "teacher_id": null
+  },
+  {
+    "id": 27,
+    "quantity": 1,
+    "lunch_item_id": 7,
+    "student_id": 10,
+    "teacher_id": null
+  },
+  {
+    "id": 28,
+    "quantity": 1,
+    "lunch_item_id": 1,
+    "student_id": 11,
+    "teacher_id": null
+  },
+  {
+    "id": 29,
+    "quantity": 1,
+    "lunch_item_id": 6,
+    "student_id": 11,
+    "teacher_id": null
+  },
+  {
+    "id": 30,
+    "quantity": 22,
+    "lunch_item_id": 7,
+    "student_id": 13,
+    "teacher_id": null
+  },
+  {
+    "id": 31,
+    "quantity": 1,
+    "lunch_item_id": 2,
+    "student_id": 13,
+    "teacher_id": null
+  },
+  {
+    "id": 32,
+    "quantity": 1,
+    "lunch_item_id": 1,
+    "student_id": null,
+    "teacher_id": "1"
+  },
+  {
+    "id": 33,
+    "quantity": 12,
+    "lunch_item_id": 6,
+    "student_id": null,
+    "teacher_id": "1"
+  },
+  {
+    "id": 34,
+    "quantity": 1,
+    "lunch_item_id": 7,
+    "student_id": null,
+    "teacher_id": "1"
+  },
+  {
+    "id": 35,
+    "quantity": 3,
+    "lunch_item_id": 1,
+    "student_id": null,
+    "teacher_id": "1"
+  },
+  {
+    "id": 36,
+    "quantity": 1,
+    "lunch_item_id": 2,
+    "student_id": null,
+    "teacher_id": "3"
+  },
+  {
+    "id": 37,
+    "quantity": 1,
+    "lunch_item_id": 7,
+    "student_id": null,
+    "teacher_id": "3"
+  },
+  {
+    "id": 38,
+    "quantity": 1,
+    "lunch_item_id": 3,
+    "student_id": null,
+    "teacher_id": "3"
+  },
+  {
+    "id": 39,
+    "quantity": 2,
+    "lunch_item_id": 2,
+    "student_id": null,
+    "teacher_id": "3"
+  }
+]

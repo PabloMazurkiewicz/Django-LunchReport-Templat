@@ -1,0 +1,53 @@
+{% load custom_filters %}
+
+{% for table_title, lunch_data in data.items %}
+    {% with list_or_single=table_title|split:", " %}
+        <h2 class="report-title">{{ table_title }} Report</h2>
+        <table>
+            <thead>
+                <th>Teacher</th>
+                <th>Student</th>
+                {% for lunch_item in list_or_single %}
+                    <th>{{ lunch_item }} Quantity</th>
+                {% endfor %}
+            </thead>
+            <tbody>
+                {% with lunch_data=lunch_data|move_key_to_end:'-' %}
+                    {% for teacher, orderers in lunch_data.items %}
+                        {% with orderers=orderers|move_key_to_end:teacher %}
+                            {% for orderer, orders in orderers.items %}
+                                <tr>
+                                    {% if teacher == '-' %}
+                                        <td>{{ teacher }}</td>
+                                    {% else %}
+                                        {% if forloop.first %}
+                                            <td rowspan="{{ orderers|get_length }}">{{ teacher }}</td>
+                                        {% endif %}
+                                    {% endif %}
+                                    <td>{{ orderer }}</td>
+                                    {% for lunch_item in list_or_single %}
+                                        <td>{{ orders|get_item:lunch_item|default:"-" }}</td>
+                                    {% endfor %}
+                                </tr>
+                            {% endfor %}
+                        {% endwith %}
+                        {% if teacher != '-' %}
+                            <tr>
+                                <td class="total-td"><strong>Total</strong></td>
+                                {% for lunch_item in list_or_single %}
+                                    <td class="total-td"><strong>{{ orderers|calculate_total:lunch_item|default:"-" }}</strong></td>
+                                {% endfor %}
+                            </tr>
+                        {% endif %}
+                    {% endfor %}
+                    <tr class="total-quantity-row">
+                        <td colspan="2"><strong>Total Quantity</strong></td>
+                        {% for item in list_or_single %}
+                            <td><strong>{{ lunch_data|calculate_grand_total:item|default:"-" }}</strong></td>
+                        {% endfor %}
+                    </tr>
+                {% endwith %}
+            </tbody>
+        </table>
+    {% endwith %}
+{% endfor %}
